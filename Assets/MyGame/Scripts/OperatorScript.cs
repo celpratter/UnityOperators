@@ -8,12 +8,19 @@ public class OperatorScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        // Declare Variables
         int tree;
-        tree = 1;
+        int flower;
+        string one;
+        string two;
+        string three;
 
-        string hello;
-        hello = "welcome";
+        // Assign a Value
+        tree = 1;
+        flower = 3;
+        one = "welcome";
+        two = "to";
+        three = "unity";
 
 
 
@@ -32,6 +39,8 @@ public class OperatorScript : MonoBehaviour
         Debug.Log(28637 > 28638);
         Debug.Log(28637 >= 28638);
 
+        Debug.Log(flower == tree);
+
         // Gleichheits Operatoren
         Debug.Log(3 == 3);
         Debug.Log(3 == 4);
@@ -46,7 +55,7 @@ public class OperatorScript : MonoBehaviour
         // String Concatination
         Debug.Log("Hello" + " " + "Unity");
 
-        Debug.Log(hello);
+        Debug.Log(one + " " + two + " " + three);
     }
 
     // Update is called once per frame
